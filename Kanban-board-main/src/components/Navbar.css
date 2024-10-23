@@ -1,0 +1,43 @@
+/* src/components/Navbar.css */
+.navbar {
+   background-color: rgb(209, 195, 195);
+   padding: 10px 30px;
+   box-shadow: 0 1px 3px rgba(219, 212, 212, 0.1);
+   position: relative;
+}
+
+.display-button {
+   display: inline-flex;
+   align-items: center;
+   gap: 18px;
+   padding: 4px 8px;
+   /* border: 1px solid #e0e0e0; */
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+.dropdown-menu {
+   position: absolute;
+   top: 100%;
+   width: 9%;
+   left: 20px;
+   background-color: white;
+   border: 1px solid #e0e0e0;
+   border-radius: 17px;
+   padding: 10px;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   z-index: 1000;
+}
+
+.dropdown-item {
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+   gap: 71px;
+}
+
+.dropdown-item select {
+   padding: 6px;
+   border: 1px solid #e0e0e0;
+   border-radius: 5px;
+}
